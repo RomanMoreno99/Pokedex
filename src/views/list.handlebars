@@ -1,0 +1,10 @@
+<div>
+    {{#each pokemons}}
+    <div>
+        <a href="/pokemon/{{this.name}}">
+            <b>{{this.name}}</b>
+            <img src="{{this.photo}}" alt="{{this.name}}">
+            <i>{{this.type}}</i>
+        </a>
+    </div>
+</div>
